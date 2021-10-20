@@ -16,12 +16,15 @@ module.exports = {
         700: '#700d16',
         800: '#46060c',
         900: '#1e0002',
+      },
+      blacky:{
+        300: "#2e2e2e"	
       }
     }
     },
   },
   variants: {
-    extend: {},
+    extend: {backgroundColor: ['active'],},
   },
   plugins: [],
 }

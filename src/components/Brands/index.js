@@ -11,17 +11,9 @@ const Brands = () => {
             </div>
         </div>
         <div>
-            <h1 className="font-semibold text-xl">Top Brands For You</h1><br/>
+            <h1 className="font-semibold text-2xl mx-4 mt-2">Top Brands For You</h1><br/>
         </div>
-        <div className="flex flex-nowwrap justify-between">
-            <BrandsCategory/>
-            <BrandsCategory/>
-            <BrandsCategory/>
-            <BrandsCategory/>
-            <BrandsCategory/>
-            <BrandsCategory/>
-            <BrandsCategory/>
-            <BrandsCategory/>
+        <div>
             <BrandsCategory/>
         </div>
         <br/>

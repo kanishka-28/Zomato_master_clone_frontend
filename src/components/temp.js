@@ -1,9 +1,11 @@
 import React from 'react'
+import Delivery from './Delivery';
+
 
 const temp = () => {
     return (
         <div>
-            hey !!!!! temp here
+            <Delivery/>
         </div>
     )
 }

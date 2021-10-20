@@ -3,7 +3,7 @@ import FoodCards from './FoodCards';
 
 const AllCards = () => {
     return (
-        <div className="flex justify-between">
+        <>
             <div className="md:hidden">
                 <FoodCards />
                 <FoodCards />
@@ -11,16 +11,16 @@ const AllCards = () => {
                 <FoodCards />
             </div>
             <div className="hidden md:block">
-                <div className="flex flex-wrap justify-between">
-                    <div className="w-96 h-96 mb-16"><FoodCards/></div>
-                    <div className="w-96 h-96 mb-16"><FoodCards/></div>
-                    <div className="w-96 h-96 mb-16"><FoodCards/></div>
-                    <div className="w-96 h-96 mb-16"><FoodCards/></div>
-                    <div className="w-96 h-96 mb-16"><FoodCards/></div>
-                    <div className="w-96 h-96 mb-16"><FoodCards/></div>
+                <div className="flex flex-wrap gap-8 justify-evenly">
+                    <div className="w-80 mb-16"><FoodCards /></div>
+                    <div className="w-80 mb-16"><FoodCards /></div>
+                    <div className="w-80 mb-16"><FoodCards /></div>
+                    <div className="w-80 mb-16"><FoodCards /></div>
+                    <div className="w-80 mb-16"><FoodCards /></div>
+                    <div className="w-80 mb-16"><FoodCards /></div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

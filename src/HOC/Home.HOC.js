@@ -1,5 +1,5 @@
-import React , {Component} from 'react'
-import {Router, Route} from "react-router-dom"
+import React from 'react'
+import { Route} from "react-router-dom"
 import HomeLayout from '../layout/Home.layout'
 
 const HomeHOC = ({component: Component, ...rest }) => {
@@ -19,4 +19,4 @@ const HomeHOC = ({component: Component, ...rest }) => {
     )
 }
 
-export default HomeHOC
+export default HomeHOC;
